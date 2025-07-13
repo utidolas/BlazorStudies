@@ -1,0 +1,51 @@
+﻿@page "/"
+
+<SfGrid ID="Grid" @ref="DefaultGrid" DataSource="@Orders" AllowPaging="true" AllowSelection="true" Toolbar="@toolbarItems" AllowPdfExport="true">
+	<GridEvents TValue="Order" OnToolbarClick="@ToolbarClickHandler"></GridEvents>
+	<GridColumns>
+		<GridColumn Field=@nameof(Order.OrderID) HeaderText="Order ID" TextAlign="TextAlign.Center" Width="120" />
+		<GridColumn Field=@nameof(Order.CustomerID) HeaderText="Customer Name" TextAlign="TextAlign.Center" Width="150" />
+		<GridColumn Field=@nameof(Order.OrderDate) HeaderText="Order Date" Format="d" Type="ColumnType.Date" TextAlign="TextAlign.Center" Width="130" />
+		<GridColumn Field=@nameof(Order.Freight) HeaderText="Freight" Format="C2" TextAlign="TextAlign.Center" Width="120" />
+	</GridColumns>
+</SfGrid>
+
+@code {
+
+	// Instantiate the grid component
+	private SfGrid<Order>? DefaultGrid;
+
+	private List<string> toolbarItems = new List<string>() { "PdfExport" };
+
+	public List<Order>? Orders { get; set; } // data source for grid
+
+	protected override void OnInitialized()
+	{
+		Orders = Enumerable.Range(1, 75).Select(x => new Order() // generate 75 orders
+		{
+			OrderID = 1000 + x, // OrderID starts from 1001 to 1075
+			CustomerID = (new string[] { "Naruto", "Ichigo", "Goku", "Saitama", "Eren", "Itadori" })[new Random().Next(5)], // Randomly assign one of the customer names
+			Freight = 2.1 * x, // Freight is 2.1 times the order number
+			OrderDate = DateTime.Now.AddDays(-x), // OrderDate is set to today minus the order number of days
+		}).ToList();
+	}
+
+	public async Task ToolbarClickHandler(ClickEventArgs args)
+	{
+		// Debug: Console.WriteLine($"Toolbar item clicked: {args.Item.Id}");
+		if (args.Item.Id == "Grid_pdfexport" && DefaultGrid != null)
+		{
+			await this.DefaultGrid.ExportToPdfAsync();
+
+		}
+	}
+
+	public class Order
+	{
+		public int? OrderID { get; set; }
+		public string? CustomerID { get; set; }
+		public DateTime? OrderDate { get; set; }
+		public double? Freight { get; set; }
+	}
+
+}
