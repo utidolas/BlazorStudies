@@ -1,7 +1,7 @@
 ﻿@page "/"
 
 <SfGrid ID="Grid" @ref="DefaultGrid" DataSource="@Orders" AllowPaging="true" AllowSelection="true" Toolbar="@toolbarItems" AllowPdfExport="true">
-	<GridEvents TValue="Order" OnToolbarClick="@ToolbarClickHandler"></GridEvents>
+	<GridEvents ExportComplete="@ExportCompleteHandler" TValue="Order" OnToolbarClick="@ToolbarClickHandler"></GridEvents>
 	<GridColumns>
 		<GridColumn Field=@nameof(Order.OrderID) HeaderText="Order ID" TextAlign="TextAlign.Center" Width="120" />
 		<GridColumn Field=@nameof(Order.CustomerID) HeaderText="Customer Name" TextAlign="TextAlign.Center" Width="150" />
@@ -35,9 +35,15 @@
 		// Debug: Console.WriteLine($"Toolbar item clicked: {args.Item.Id}");
 		if (args.Item.Id == "Grid_pdfexport" && DefaultGrid != null)
 		{
+			await this.DefaultGrid.ShowSpinnerAsync(); // Show spinner while exporting
 			await this.DefaultGrid.ExportToPdfAsync();
-
 		}
+	}
+
+	public async void ExportCompleteHandler(object args)
+	{
+		await this.DefaultGrid.HideSpinnerAsync(); // Hide spinner after export is complete
+		// Debug: Console.WriteLine("Export completed successfully.");
 	}
 
 	public class Order

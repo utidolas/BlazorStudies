@@ -78,3 +78,4 @@ G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\B
 G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion\obj\Debug\net8.0\BlazorSyncFusion.pdb
 G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion\obj\Debug\net8.0\BlazorSyncFusion.genruntimeconfig.cache
 G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion\obj\Debug\net8.0\ref\BlazorSyncFusion.dll
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion\obj\Debug\net8.0\BlazorSyncFusion.sourcelink.json

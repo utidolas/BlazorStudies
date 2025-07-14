@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "p/LyYQrc/R4=",
+  "dgSpecHash": "CIB9s8knDzQ=",
   "success": true,
   "projectFilePath": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.Client\\BlazorSyncFusion.Client.csproj",
   "expectedPackageFiles": [
@@ -27,8 +27,8 @@
     "C:\\Users\\likee\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\likee\\.nuget\\packages\\microsoft.jsinterop\\8.0.17\\microsoft.jsinterop.8.0.17.nupkg.sha512",
     "C:\\Users\\likee\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.17\\microsoft.jsinterop.webassembly.8.0.17.nupkg.sha512",
-    "C:\\Users\\likee\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.17\\microsoft.net.illink.tasks.8.0.17.nupkg.sha512",
-    "C:\\Users\\likee\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.6\\microsoft.net.sdk.webassembly.pack.9.0.6.nupkg.sha512",
+    "C:\\Users\\likee\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.18\\microsoft.net.illink.tasks.8.0.18.nupkg.sha512",
+    "C:\\Users\\likee\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.7\\microsoft.net.sdk.webassembly.pack.9.0.7.nupkg.sha512",
     "C:\\Users\\likee\\.nuget\\packages\\syncfusion.blazor.buttons\\30.1.39\\syncfusion.blazor.buttons.30.1.39.nupkg.sha512",
     "C:\\Users\\likee\\.nuget\\packages\\syncfusion.blazor.calendars\\30.1.39\\syncfusion.blazor.calendars.30.1.39.nupkg.sha512",
     "C:\\Users\\likee\\.nuget\\packages\\syncfusion.blazor.core\\30.1.39\\syncfusion.blazor.core.30.1.39.nupkg.sha512",
