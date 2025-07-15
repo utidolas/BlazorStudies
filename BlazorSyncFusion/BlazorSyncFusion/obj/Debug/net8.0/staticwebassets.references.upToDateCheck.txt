@@ -4,3 +4,4 @@ G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\B
 G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion.Client\obj\Debug\net8.0\staticwebassets.build.json
 G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion.Client\obj\Debug\net8.0\staticwebassets.build.json
 G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion.Client\obj\Debug\net8.0\staticwebassets.build.json
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion.Client\obj\Debug\net8.0\staticwebassets.build.json
