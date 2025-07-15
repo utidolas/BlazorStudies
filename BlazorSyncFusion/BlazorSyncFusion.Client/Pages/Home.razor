@@ -1,6 +1,6 @@
 ﻿@page "/"
 
-<SfGrid ID="Grid" @ref="DefaultGrid" DataSource="@Orders" AllowPaging="true" AllowSelection="true" Toolbar="@toolbarItems" AllowPdfExport="true">
+<SfGrid ID="Grid" @ref="DefaultGrid" DataSource="@Orders" AllowPaging="true" AllowSelection="true" Toolbar="@toolbarItems" AllowPdfExport="true" AllowExcelExport="true">
 	<GridEvents ExportComplete="@ExportCompleteHandler" TValue="Order" OnToolbarClick="@ToolbarClickHandler"></GridEvents>
 	<GridColumns>
 		<GridColumn Field=@nameof(Order.OrderID) HeaderText="Order ID" TextAlign="TextAlign.Center" Width="120" />
@@ -15,7 +15,7 @@
 	// Instantiate the grid component
 	private SfGrid<Order>? DefaultGrid;
 
-	private List<string> toolbarItems = new List<string>() { "PdfExport" };
+	private List<string> toolbarItems = new List<string>() { "PdfExport", "ExcelExport", "CsvExport" };
 
 	public List<Order>? Orders { get; set; } // data source for grid
 
@@ -32,11 +32,21 @@
 
 	public async Task ToolbarClickHandler(ClickEventArgs args)
 	{
-		// Debug: Console.WriteLine($"Toolbar item clicked: {args.Item.Id}");
+		Console.WriteLine($"Toolbar item clicked: {args.Item.Id}");
 		if (args.Item.Id == "Grid_pdfexport" && DefaultGrid != null)
 		{
 			await this.DefaultGrid.ShowSpinnerAsync(); // Show spinner while exporting
 			await this.DefaultGrid.ExportToPdfAsync();
+		}
+		else if(args.Item.Id == "Grid_excelexport" && DefaultGrid != null)
+		{
+			await this.DefaultGrid.ShowSpinnerAsync(); // Show spinner while exporting
+			await this.DefaultGrid.ExportToExcelAsync();
+		}
+		else if(args.Item.Id == "Grid_csvexport" && DefaultGrid != null)
+		{
+			await this.DefaultGrid.ShowSpinnerAsync(); // Show spinner while exporting
+			await this.DefaultGrid.ExportToCsvAsync();
 		}
 	}
 

@@ -41,6 +41,14 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "appsettings.json",
@@ -50,8 +58,7 @@
               "RelativeToolTip": "BlazorSyncFusion\\BlazorSyncFusion\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-14T12:51:55.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T12:51:55.452Z"
             },
             {
               "$type": "Document",
@@ -63,16 +70,7 @@
               "RelativeToolTip": "BlazorSyncFusion\\BlazorSyncFusion\\Components\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T11:44:16.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}"
+              "WhenOpened": "2025-07-14T11:44:16.117Z"
             },
             {
               "$type": "Document",
@@ -82,7 +80,7 @@
               "RelativeDocumentMoniker": "BlazorSyncFusion\\BlazorSyncFusion.Client\\Pages\\Home.razor",
               "ToolTip": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.Client\\Pages\\Home.razor",
               "RelativeToolTip": "BlazorSyncFusion\\BlazorSyncFusion.Client\\Pages\\Home.razor",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAB3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-13T09:40:35.755Z",
               "EditorCaption": ""
@@ -97,8 +95,7 @@
               "RelativeToolTip": "BlazorSyncFusion\\BlazorSyncFusion\\Components\\App.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-13T09:40:01.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T09:40:01.106Z"
             },
             {
               "$type": "Document",
