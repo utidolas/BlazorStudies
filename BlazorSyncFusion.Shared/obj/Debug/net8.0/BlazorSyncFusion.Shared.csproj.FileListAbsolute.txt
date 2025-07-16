@@ -1,0 +1,12 @@
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion.Shared\bin\Debug\net8.0\BlazorSyncFusion.Shared.deps.json
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion.Shared\bin\Debug\net8.0\BlazorSyncFusion.Shared.dll
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion.Shared\bin\Debug\net8.0\BlazorSyncFusion.Shared.pdb
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion.Shared\obj\Debug\net8.0\BlazorSyncFusion.Shared.GeneratedMSBuildEditorConfig.editorconfig
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion.Shared\obj\Debug\net8.0\BlazorSyncFusion.Shared.AssemblyInfoInputs.cache
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion.Shared\obj\Debug\net8.0\BlazorSyncFusion.Shared.AssemblyInfo.cs
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion.Shared\obj\Debug\net8.0\BlazorSyncFusion.Shared.csproj.CoreCompileInputs.cache
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion.Shared\obj\Debug\net8.0\BlazorSyncFusion.Shared.sourcelink.json
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion.Shared\obj\Debug\net8.0\BlazorSyncFusion.Shared.dll
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion.Shared\obj\Debug\net8.0\refint\BlazorSyncFusion.Shared.dll
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion.Shared\obj\Debug\net8.0\BlazorSyncFusion.Shared.pdb
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion.Shared\obj\Debug\net8.0\ref\BlazorSyncFusion.Shared.dll

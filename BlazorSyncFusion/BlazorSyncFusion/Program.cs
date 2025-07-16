@@ -1,14 +1,21 @@
 using BlazorSyncFusion.Client.Pages;
 using BlazorSyncFusion.Components;
-using Syncfusion.Blazor;
+using Microsoft.EntityFrameworkCore;
+using BlazorSyncFusion.Data;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddSyncfusionBlazor();
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
+
+// Register the DbContext with dependency injection
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddControllersWithViews(); // Configure MVC services to support controllers and views
+builder.Services.AddRazorPages(); // Configure Razor Pages services
+
 
 var app = builder.Build();
 
@@ -25,7 +32,11 @@ else
 }
 
 app.UseHttpsRedirection();
-
+app.UseBlazorFrameworkFiles(); // Serve Blazor framework files
+app.UseRouting(); // Enable routing
+app.MapRazorPages(); // Map Razor Pages
+app.MapControllers(); // Map API controllers
+app.MapFallbackToFile("index.html"); // Fallback to index.html for SPA routing
 app.UseStaticFiles();
 app.UseAntiforgery();
 

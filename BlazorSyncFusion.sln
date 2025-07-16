@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36212.18 d17.14
+VisualStudioVersion = 17.14.36212.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorSyncFusion", "BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion.csproj", "{D44AEE0A-4A98-45AF-85E5-02BC4A5E9E01}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorSyncFusion.Client", "BlazorSyncFusion\BlazorSyncFusion.Client\BlazorSyncFusion.Client.csproj", "{A4C7D264-7224-4EC8-B88D-55733D4E67F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorSyncFusion.Shared", "BlazorSyncFusion.Shared\BlazorSyncFusion.Shared.csproj", "{39B73D25-B6E1-43E8-8A64-8723E4805218}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A4C7D264-7224-4EC8-B88D-55733D4E67F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4C7D264-7224-4EC8-B88D-55733D4E67F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4C7D264-7224-4EC8-B88D-55733D4E67F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39B73D25-B6E1-43E8-8A64-8723E4805218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39B73D25-B6E1-43E8-8A64-8723E4805218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39B73D25-B6E1-43E8-8A64-8723E4805218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39B73D25-B6E1-43E8-8A64-8723E4805218}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

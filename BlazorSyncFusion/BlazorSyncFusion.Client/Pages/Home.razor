@@ -1,67 +1,7 @@
 ﻿@page "/"
 
-<SfGrid ID="Grid" @ref="DefaultGrid" DataSource="@Orders" AllowPaging="true" AllowSelection="true" Toolbar="@toolbarItems" AllowPdfExport="true" AllowExcelExport="true">
-	<GridEvents ExportComplete="@ExportCompleteHandler" TValue="Order" OnToolbarClick="@ToolbarClickHandler"></GridEvents>
-	<GridColumns>
-		<GridColumn Field=@nameof(Order.OrderID) HeaderText="Order ID" TextAlign="TextAlign.Center" Width="120" />
-		<GridColumn Field=@nameof(Order.CustomerID) HeaderText="Customer Name" TextAlign="TextAlign.Center" Width="150" />
-		<GridColumn Field=@nameof(Order.OrderDate) HeaderText="Order Date" Format="d" Type="ColumnType.Date" TextAlign="TextAlign.Center" Width="130" />
-		<GridColumn Field=@nameof(Order.Freight) HeaderText="Freight" Format="C2" TextAlign="TextAlign.Center" Width="120" />
-	</GridColumns>
-</SfGrid>
+<PageTitle>Home</PageTitle>
 
-@code {
+<h1>Hello, world!</h1>
 
-	// Instantiate the grid component
-	private SfGrid<Order>? DefaultGrid;
-
-	private List<string> toolbarItems = new List<string>() { "PdfExport", "ExcelExport", "CsvExport" };
-
-	public List<Order>? Orders { get; set; } // data source for grid
-
-	protected override void OnInitialized()
-	{
-		Orders = Enumerable.Range(1, 75).Select(x => new Order() // generate 75 orders
-		{
-			OrderID = 1000 + x, // OrderID starts from 1001 to 1075
-			CustomerID = (new string[] { "Naruto", "Ichigo", "Goku", "Saitama", "Eren", "Itadori" })[new Random().Next(5)], // Randomly assign one of the customer names
-			Freight = 2.1 * x, // Freight is 2.1 times the order number
-			OrderDate = DateTime.Now.AddDays(-x), // OrderDate is set to today minus the order number of days
-		}).ToList();
-	}
-
-	public async Task ToolbarClickHandler(ClickEventArgs args)
-	{
-		Console.WriteLine($"Toolbar item clicked: {args.Item.Id}");
-		if (args.Item.Id == "Grid_pdfexport" && DefaultGrid != null)
-		{
-			await this.DefaultGrid.ShowSpinnerAsync(); // Show spinner while exporting
-			await this.DefaultGrid.ExportToPdfAsync();
-		}
-		else if(args.Item.Id == "Grid_excelexport" && DefaultGrid != null)
-		{
-			await this.DefaultGrid.ShowSpinnerAsync(); // Show spinner while exporting
-			await this.DefaultGrid.ExportToExcelAsync();
-		}
-		else if(args.Item.Id == "Grid_csvexport" && DefaultGrid != null)
-		{
-			await this.DefaultGrid.ShowSpinnerAsync(); // Show spinner while exporting
-			await this.DefaultGrid.ExportToCsvAsync();
-		}
-	}
-
-	public async void ExportCompleteHandler(object args)
-	{
-		await this.DefaultGrid.HideSpinnerAsync(); // Hide spinner after export is complete
-		// Debug: Console.WriteLine("Export completed successfully.");
-	}
-
-	public class Order
-	{
-		public int? OrderID { get; set; }
-		public string? CustomerID { get; set; }
-		public DateTime? OrderDate { get; set; }
-		public double? Freight { get; set; }
-	}
-
-}
+This is a prototype to test my skills. I hope you guys have fun :D

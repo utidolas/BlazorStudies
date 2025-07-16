@@ -3,12 +3,56 @@
   "WorkspaceRootPath": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A4C7D264-7224-4EC8-B88D-55733D4E67F8}|BlazorSyncFusion\\BlazorSyncFusion.Client\\BlazorSyncFusion.Client.csproj|g:\\meus documentos\\documentos\\professional\\programming\\blazor\\blazorsyncfusion\\blazorsyncfusion\\blazorsyncfusion.client\\pages\\usergrid.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4C7D264-7224-4EC8-B88D-55733D4E67F8}|BlazorSyncFusion\\BlazorSyncFusion.Client\\BlazorSyncFusion.Client.csproj|solutionrelative:blazorsyncfusion\\blazorsyncfusion.client\\pages\\usergrid.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4C7D264-7224-4EC8-B88D-55733D4E67F8}|BlazorSyncFusion\\BlazorSyncFusion.Client\\BlazorSyncFusion.Client.csproj|g:\\meus documentos\\documentos\\professional\\programming\\blazor\\blazorsyncfusion\\blazorsyncfusion\\blazorsyncfusion.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4C7D264-7224-4EC8-B88D-55733D4E67F8}|BlazorSyncFusion\\BlazorSyncFusion.Client\\BlazorSyncFusion.Client.csproj|solutionrelative:blazorsyncfusion\\blazorsyncfusion.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A4C7D264-7224-4EC8-B88D-55733D4E67F8}|BlazorSyncFusion\\BlazorSyncFusion.Client\\BlazorSyncFusion.Client.csproj|g:\\meus documentos\\documentos\\professional\\programming\\blazor\\blazorsyncfusion\\blazorsyncfusion\\blazorsyncfusion.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A4C7D264-7224-4EC8-B88D-55733D4E67F8}|BlazorSyncFusion\\BlazorSyncFusion.Client\\BlazorSyncFusion.Client.csproj|solutionrelative:blazorsyncfusion\\blazorsyncfusion.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A4C7D264-7224-4EC8-B88D-55733D4E67F8}|BlazorSyncFusion\\BlazorSyncFusion.Client\\BlazorSyncFusion.Client.csproj|g:\\meus documentos\\documentos\\professional\\programming\\blazor\\blazorsyncfusion\\blazorsyncfusion\\blazorsyncfusion.client\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4C7D264-7224-4EC8-B88D-55733D4E67F8}|BlazorSyncFusion\\BlazorSyncFusion.Client\\BlazorSyncFusion.Client.csproj|solutionrelative:blazorsyncfusion\\blazorsyncfusion.client\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4C7D264-7224-4EC8-B88D-55733D4E67F8}|BlazorSyncFusion\\BlazorSyncFusion.Client\\BlazorSyncFusion.Client.csproj|g:\\meus documentos\\documentos\\professional\\programming\\blazor\\blazorsyncfusion\\blazorsyncfusion\\blazorsyncfusion.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4C7D264-7224-4EC8-B88D-55733D4E67F8}|BlazorSyncFusion\\BlazorSyncFusion.Client\\BlazorSyncFusion.Client.csproj|solutionrelative:blazorsyncfusion\\blazorsyncfusion.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4C7D264-7224-4EC8-B88D-55733D4E67F8}|BlazorSyncFusion\\BlazorSyncFusion.Client\\BlazorSyncFusion.Client.csproj|g:\\meus documentos\\documentos\\professional\\programming\\blazor\\blazorsyncfusion\\blazorsyncfusion\\blazorsyncfusion.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4C7D264-7224-4EC8-B88D-55733D4E67F8}|BlazorSyncFusion\\BlazorSyncFusion.Client\\BlazorSyncFusion.Client.csproj|solutionrelative:blazorsyncfusion\\blazorsyncfusion.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4C7D264-7224-4EC8-B88D-55733D4E67F8}|BlazorSyncFusion\\BlazorSyncFusion.Client\\BlazorSyncFusion.Client.csproj|g:\\meus documentos\\documentos\\professional\\programming\\blazor\\blazorsyncfusion\\blazorsyncfusion\\blazorsyncfusion.client\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A4C7D264-7224-4EC8-B88D-55733D4E67F8}|BlazorSyncFusion\\BlazorSyncFusion.Client\\BlazorSyncFusion.Client.csproj|solutionrelative:blazorsyncfusion\\blazorsyncfusion.client\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D44AEE0A-4A98-45AF-85E5-02BC4A5E9E01}|BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.csproj|g:\\meus documentos\\documentos\\professional\\programming\\blazor\\blazorsyncfusion\\blazorsyncfusion\\blazorsyncfusion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D44AEE0A-4A98-45AF-85E5-02BC4A5E9E01}|BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.csproj|solutionrelative:blazorsyncfusion\\blazorsyncfusion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44AEE0A-4A98-45AF-85E5-02BC4A5E9E01}|BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.csproj|g:\\meus documentos\\documentos\\professional\\programming\\blazor\\blazorsyncfusion\\blazorsyncfusion\\blazorsyncfusion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44AEE0A-4A98-45AF-85E5-02BC4A5E9E01}|BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.csproj|solutionrelative:blazorsyncfusion\\blazorsyncfusion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44AEE0A-4A98-45AF-85E5-02BC4A5E9E01}|BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.csproj|g:\\meus documentos\\documentos\\professional\\programming\\blazor\\blazorsyncfusion\\blazorsyncfusion\\blazorsyncfusion\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44AEE0A-4A98-45AF-85E5-02BC4A5E9E01}|BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.csproj|solutionrelative:blazorsyncfusion\\blazorsyncfusion\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44AEE0A-4A98-45AF-85E5-02BC4A5E9E01}|BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.csproj|g:\\meus documentos\\documentos\\professional\\programming\\blazor\\blazorsyncfusion\\blazorsyncfusion\\blazorsyncfusion\\blazorsyncfusion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D44AEE0A-4A98-45AF-85E5-02BC4A5E9E01}|BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.csproj|solutionrelative:blazorsyncfusion\\blazorsyncfusion\\blazorsyncfusion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44AEE0A-4A98-45AF-85E5-02BC4A5E9E01}|BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.csproj|g:\\meus documentos\\documentos\\professional\\programming\\blazor\\blazorsyncfusion\\blazorsyncfusion\\blazorsyncfusion\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44AEE0A-4A98-45AF-85E5-02BC4A5E9E01}|BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.csproj|solutionrelative:blazorsyncfusion\\blazorsyncfusion\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39B73D25-B6E1-43E8-8A64-8723E4805218}|BlazorSyncFusion.Shared\\BlazorSyncFusion.Shared.csproj|g:\\meus documentos\\documentos\\professional\\programming\\blazor\\blazorsyncfusion\\blazorsyncfusion.shared\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B73D25-B6E1-43E8-8A64-8723E4805218}|BlazorSyncFusion.Shared\\BlazorSyncFusion.Shared.csproj|solutionrelative:blazorsyncfusion.shared\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D44AEE0A-4A98-45AF-85E5-02BC4A5E9E01}|BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.csproj|g:\\meus documentos\\documentos\\professional\\programming\\blazor\\blazorsyncfusion\\blazorsyncfusion\\blazorsyncfusion\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -17,18 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D44AEE0A-4A98-45AF-85E5-02BC4A5E9E01}|BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.csproj|g:\\meus documentos\\documentos\\professional\\programming\\blazor\\blazorsyncfusion\\blazorsyncfusion\\blazorsyncfusion\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D44AEE0A-4A98-45AF-85E5-02BC4A5E9E01}|BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.csproj|solutionrelative:blazorsyncfusion\\blazorsyncfusion\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4C7D264-7224-4EC8-B88D-55733D4E67F8}|BlazorSyncFusion\\BlazorSyncFusion.Client\\BlazorSyncFusion.Client.csproj|g:\\meus documentos\\documentos\\professional\\programming\\blazor\\blazorsyncfusion\\blazorsyncfusion\\blazorsyncfusion.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4C7D264-7224-4EC8-B88D-55733D4E67F8}|BlazorSyncFusion\\BlazorSyncFusion.Client\\BlazorSyncFusion.Client.csproj|solutionrelative:blazorsyncfusion\\blazorsyncfusion.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D44AEE0A-4A98-45AF-85E5-02BC4A5E9E01}|BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.csproj|g:\\meus documentos\\documentos\\professional\\programming\\blazor\\blazorsyncfusion\\blazorsyncfusion\\blazorsyncfusion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D44AEE0A-4A98-45AF-85E5-02BC4A5E9E01}|BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.csproj|solutionrelative:blazorsyncfusion\\blazorsyncfusion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4C7D264-7224-4EC8-B88D-55733D4E67F8}|BlazorSyncFusion\\BlazorSyncFusion.Client\\BlazorSyncFusion.Client.csproj|g:\\meus documentos\\documentos\\professional\\programming\\blazor\\blazorsyncfusion\\blazorsyncfusion\\blazorsyncfusion.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4C7D264-7224-4EC8-B88D-55733D4E67F8}|BlazorSyncFusion\\BlazorSyncFusion.Client\\BlazorSyncFusion.Client.csproj|solutionrelative:blazorsyncfusion\\blazorsyncfusion.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +70,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.Client\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "BlazorSyncFusion\\BlazorSyncFusion.Client\\Pages\\Weather.razor",
+              "ToolTip": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.Client\\Pages\\Weather.razor",
+              "RelativeToolTip": "BlazorSyncFusion\\BlazorSyncFusion.Client\\Pages\\Weather.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T13:00:41.476Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -50,7 +95,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.Client\\wwwroot\\appsettings.json",
+              "RelativeDocumentMoniker": "BlazorSyncFusion\\BlazorSyncFusion.Client\\wwwroot\\appsettings.json",
+              "ToolTip": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.Client\\wwwroot\\appsettings.json",
+              "RelativeToolTip": "BlazorSyncFusion\\BlazorSyncFusion.Client\\wwwroot\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-16T12:59:22.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.Client\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorSyncFusion\\BlazorSyncFusion.Client\\Layout\\NavMenu.razor",
+              "ToolTip": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.Client\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorSyncFusion\\BlazorSyncFusion.Client\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T12:46:53.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserGrid.razor",
+              "DocumentMoniker": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.Client\\Pages\\UserGrid.razor",
+              "RelativeDocumentMoniker": "BlazorSyncFusion\\BlazorSyncFusion.Client\\Pages\\UserGrid.razor",
+              "ToolTip": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.Client\\Pages\\UserGrid.razor",
+              "RelativeToolTip": "BlazorSyncFusion\\BlazorSyncFusion.Client\\Pages\\UserGrid.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T11:11:34.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion\\Controller\\UserController.cs",
+              "RelativeDocumentMoniker": "BlazorSyncFusion\\BlazorSyncFusion\\Controller\\UserController.cs",
+              "ToolTip": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion\\Controller\\UserController.cs",
+              "RelativeToolTip": "BlazorSyncFusion\\BlazorSyncFusion\\Controller\\UserController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T12:20:28.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BlazorSyncFusion",
+              "DocumentMoniker": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.csproj",
+              "RelativeDocumentMoniker": "BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.csproj",
+              "ToolTip": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.csproj",
+              "RelativeToolTip": "BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-16T12:08:38.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BlazorSyncFusion\\BlazorSyncFusion\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BlazorSyncFusion\\BlazorSyncFusion\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T11:17:07.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion.Shared\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "BlazorSyncFusion.Shared\\Entities\\User.cs",
+              "ToolTip": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion.Shared\\Entities\\User.cs",
+              "RelativeToolTip": "BlazorSyncFusion.Shared\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T11:07:29.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion\\appsettings.json",
               "RelativeDocumentMoniker": "BlazorSyncFusion\\BlazorSyncFusion\\appsettings.json",
@@ -58,36 +194,38 @@
               "RelativeToolTip": "BlazorSyncFusion\\BlazorSyncFusion\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-14T12:51:55.452Z"
+              "WhenOpened": "2025-07-14T12:51:55.452Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "_Imports.razor",
               "DocumentMoniker": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "BlazorSyncFusion\\BlazorSyncFusion\\Components\\_Imports.razor",
               "ToolTip": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion\\Components\\_Imports.razor",
               "RelativeToolTip": "BlazorSyncFusion\\BlazorSyncFusion\\Components\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T11:44:16.117Z"
+              "WhenOpened": "2025-07-14T11:44:16.117Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Home.razor",
               "DocumentMoniker": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.Client\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "BlazorSyncFusion\\BlazorSyncFusion.Client\\Pages\\Home.razor",
               "ToolTip": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.Client\\Pages\\Home.razor",
               "RelativeToolTip": "BlazorSyncFusion\\BlazorSyncFusion.Client\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAB3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-13T09:40:35.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "App.razor",
               "DocumentMoniker": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion\\Components\\App.razor",
               "RelativeDocumentMoniker": "BlazorSyncFusion\\BlazorSyncFusion\\Components\\App.razor",
@@ -95,31 +233,34 @@
               "RelativeToolTip": "BlazorSyncFusion\\BlazorSyncFusion\\Components\\App.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-13T09:40:01.106Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.Client\\Program.cs",
-              "RelativeDocumentMoniker": "BlazorSyncFusion\\BlazorSyncFusion.Client\\Program.cs",
-              "ToolTip": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.Client\\Program.cs",
-              "RelativeToolTip": "BlazorSyncFusion\\BlazorSyncFusion.Client\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T09:39:13.785Z"
+              "WhenOpened": "2025-07-13T09:40:01.106Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.Client\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorSyncFusion\\BlazorSyncFusion.Client\\Program.cs",
+              "ToolTip": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.Client\\Program.cs",
+              "RelativeToolTip": "BlazorSyncFusion\\BlazorSyncFusion.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T09:39:13.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
               "DocumentMoniker": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion\\Program.cs",
               "RelativeDocumentMoniker": "BlazorSyncFusion\\BlazorSyncFusion\\Program.cs",
               "ToolTip": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion\\Program.cs",
               "RelativeToolTip": "BlazorSyncFusion\\BlazorSyncFusion\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T09:39:05.65Z"
+              "WhenOpened": "2025-07-13T09:39:05.65Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -129,9 +270,10 @@
               "RelativeDocumentMoniker": "BlazorSyncFusion\\BlazorSyncFusion.Client\\_Imports.razor",
               "ToolTip": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.Client\\_Imports.razor",
               "RelativeToolTip": "BlazorSyncFusion\\BlazorSyncFusion.Client\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-13T09:38:50.493Z"
+              "WhenOpened": "2025-07-13T09:38:50.493Z",
+              "EditorCaption": ""
             }
           ]
         }
