@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\BlazorSyncFusion.Shared\BlazorSyncFusion.Shared.csproj" />
+    <ProjectReference Include="..\..\DataAccessLibrary\DataAccessLibrary.csproj" />
   </ItemGroup>
 
 </Project>

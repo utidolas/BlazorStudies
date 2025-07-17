@@ -1,0 +1,13 @@
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\DataAccessLibrary\bin\Debug\net8.0\DataAccessLibrary.deps.json
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\DataAccessLibrary\bin\Debug\net8.0\DataAccessLibrary.dll
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\DataAccessLibrary\bin\Debug\net8.0\DataAccessLibrary.pdb
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\DataAccessLibrary\obj\Debug\net8.0\DataAccessLibrary.csproj.AssemblyReference.cache
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\DataAccessLibrary\obj\Debug\net8.0\DataAccessLibrary.GeneratedMSBuildEditorConfig.editorconfig
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\DataAccessLibrary\obj\Debug\net8.0\DataAccessLibrary.AssemblyInfoInputs.cache
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\DataAccessLibrary\obj\Debug\net8.0\DataAccessLibrary.AssemblyInfo.cs
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\DataAccessLibrary\obj\Debug\net8.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\DataAccessLibrary\obj\Debug\net8.0\DataAccessLibrary.sourcelink.json
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\DataAccessLibrary\obj\Debug\net8.0\DataAccessLibrary.dll
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\DataAccessLibrary\obj\Debug\net8.0\refint\DataAccessLibrary.dll
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\DataAccessLibrary\obj\Debug\net8.0\DataAccessLibrary.pdb
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\DataAccessLibrary\obj\Debug\net8.0\ref\DataAccessLibrary.dll

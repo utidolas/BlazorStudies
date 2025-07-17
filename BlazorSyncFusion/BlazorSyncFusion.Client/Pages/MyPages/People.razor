@@ -1,0 +1,50 @@
+﻿@page "/Data/Orders"
+
+@using DataAccessLibrary
+@using DataAccessLibrary.Models
+
+@inject IPeopleData _db
+
+<h3>Pagina de ordens</h3>
+
+<h4>Ordens atuais</h4>
+
+@if(people is null)
+{
+	<p><em>Carregando...</em></p>
+}
+else
+{
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th>ID da ordem</th>
+				<th>Nome</th>
+				<th>ID do cliente</th>
+				<th>Local de envio</th>
+				<th>Custo</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach(var person in people)
+			{
+				<tr>
+					<td>@person.OrderID</td>
+					<td>@person.CustomerID</td>
+					<td>@person.EmployeeID</td>
+					<td>@person.ShipVillage</td>
+					<td>@person.RyoCurrency</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
+
+@code {
+	private List<PersonModel> people;
+
+	protected override async Task OnInitializedAsync()
+	{
+		people = await _db.GetPeople();
+	}
+}

@@ -1,7 +1,7 @@
 using BlazorSyncFusion.Client.Pages;
 using BlazorSyncFusion.Components;
 using Microsoft.EntityFrameworkCore;
-using BlazorSyncFusion.Data;
+using DataAccessLibrary;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,10 +10,9 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
 
-// Register the DbContext with dependency injection
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddControllersWithViews(); // Configure MVC services to support controllers and views
+// Register the data access layer services; create instances of ISqlDataAccess and IPeopleData
+builder.Services.AddTransient<ISqlDataAccess, SqlDataAccess>();
+builder.Services.AddTransient<IPeopleData, PeopleData>();
 builder.Services.AddRazorPages(); // Configure Razor Pages services
 
 

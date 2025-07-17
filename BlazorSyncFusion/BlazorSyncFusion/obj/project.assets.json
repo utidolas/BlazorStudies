@@ -47,6 +47,19 @@
           }
         }
       },
+      "Dapper/2.1.66": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Faker.Net/2.0.163": {
         "type": "package",
         "dependencies": {
@@ -2915,7 +2928,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "BlazorSyncFusion.Shared": "1.0.0",
+          "DataAccessLibrary": "1.0.0",
           "Faker.Net": "2.0.163",
           "Microsoft.AspNetCore.Components.QuickGrid": "8.0.18",
           "Microsoft.AspNetCore.Components.WebAssembly": "8.0.17",
@@ -2929,14 +2942,19 @@
           "bin/placeholder/BlazorSyncFusion.Client.dll": {}
         }
       },
-      "BlazorSyncFusion.Shared/1.0.0": {
+      "DataAccessLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Dapper": "2.1.66",
+          "Microsoft.Data.SqlClient": "5.1.6",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
+        },
         "compile": {
-          "bin/placeholder/BlazorSyncFusion.Shared.dll": {}
+          "bin/placeholder/DataAccessLibrary.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BlazorSyncFusion.Shared.dll": {}
+          "bin/placeholder/DataAccessLibrary.dll": {}
         }
       }
     }
@@ -2978,6 +2996,25 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "Dapper/2.1.66": {
+      "sha512": "/q77jUgDOS+bzkmk3Vy9SiWMaetTw+NOoPAV0xPBsGVAyljd5S6P+4RUW7R3ZUGGr9lDRyPKgAMj2UAOwvqZYw==",
+      "type": "package",
+      "path": "dapper/2.1.66",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.1.66.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net8.0/Dapper.dll",
+        "lib/net8.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml",
+        "readme.md"
       ]
     },
     "Faker.Net/2.0.163": {
@@ -7566,16 +7603,16 @@
       "path": "../BlazorSyncFusion.Client/BlazorSyncFusion.Client.csproj",
       "msbuildProject": "../BlazorSyncFusion.Client/BlazorSyncFusion.Client.csproj"
     },
-    "BlazorSyncFusion.Shared/1.0.0": {
+    "DataAccessLibrary/1.0.0": {
       "type": "project",
-      "path": "../../BlazorSyncFusion.Shared/BlazorSyncFusion.Shared.csproj",
-      "msbuildProject": "../../BlazorSyncFusion.Shared/BlazorSyncFusion.Shared.csproj"
+      "path": "../../DataAccessLibrary/DataAccessLibrary.csproj",
+      "msbuildProject": "../../DataAccessLibrary/DataAccessLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "BlazorSyncFusion.Client >= 1.0.0",
-      "BlazorSyncFusion.Shared >= 1.0.0",
+      "DataAccessLibrary >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 8.0.17",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.7"
@@ -7614,11 +7651,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion.Shared\\BlazorSyncFusion.Shared.csproj": {
-              "projectPath": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion.Shared\\BlazorSyncFusion.Shared.csproj"
-            },
             "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.Client\\BlazorSyncFusion.Client.csproj": {
               "projectPath": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.Client\\BlazorSyncFusion.Client.csproj"
+            },
+            "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\DataAccessLibrary\\DataAccessLibrary.csproj": {
+              "projectPath": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\DataAccessLibrary\\DataAccessLibrary.csproj"
             }
           }
         }

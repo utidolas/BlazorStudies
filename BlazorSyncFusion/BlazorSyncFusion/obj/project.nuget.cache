@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "BmjZUIJwnZY=",
+  "dgSpecHash": "CzdCk9KOT+I=",
   "success": true,
   "projectFilePath": "G:\\Meus Documentos\\Documentos\\Professional\\PROGRAMMING\\Blazor\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion\\BlazorSyncFusion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\likee\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\likee\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\likee\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
     "C:\\Users\\likee\\.nuget\\packages\\faker.net\\2.0.163\\faker.net.2.0.163.nupkg.sha512",
     "C:\\Users\\likee\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\likee\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.3.0\\microsoft.aspnetcore.antiforgery.2.3.0.nupkg.sha512",

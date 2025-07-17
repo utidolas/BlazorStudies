@@ -210,6 +210,7 @@ G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\B
 G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion\bin\Debug\net8.0\BlazorSyncFusion.Shared.dll
-G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion\bin\Debug\net8.0\BlazorSyncFusion.Shared.pdb
 G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.dll
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion\bin\Debug\net8.0\Dapper.dll
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion\bin\Debug\net8.0\DataAccessLibrary.dll
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion\bin\Debug\net8.0\DataAccessLibrary.pdb

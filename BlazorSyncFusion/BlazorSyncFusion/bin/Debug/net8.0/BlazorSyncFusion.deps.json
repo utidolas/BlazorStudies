@@ -9,7 +9,7 @@
       "BlazorSyncFusion/1.0.0": {
         "dependencies": {
           "BlazorSyncFusion.Client": "1.0.0",
-          "BlazorSyncFusion.Shared": "1.0.0",
+          "DataAccessLibrary": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "8.0.17",
           "Microsoft.EntityFrameworkCore.Design": "9.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.7"
@@ -50,6 +50,14 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.11.4.0",
             "fileVersion": "1.1100.424.31005"
+          }
+        }
+      },
+      "Dapper/2.1.66": {
+        "runtime": {
+          "lib/net8.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.66.48463"
           }
         }
       },
@@ -1667,7 +1675,7 @@
       },
       "BlazorSyncFusion.Client/1.0.0": {
         "dependencies": {
-          "BlazorSyncFusion.Shared": "1.0.0",
+          "DataAccessLibrary": "1.0.0",
           "Faker.Net": "2.0.163",
           "Microsoft.AspNetCore.Components.QuickGrid": "8.0.18",
           "Microsoft.AspNetCore.Components.WebAssembly": "8.0.17",
@@ -1681,9 +1689,14 @@
           }
         }
       },
-      "BlazorSyncFusion.Shared/1.0.0": {
+      "DataAccessLibrary/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.1.66",
+          "Microsoft.Data.SqlClient": "5.1.6",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.7"
+        },
         "runtime": {
-          "BlazorSyncFusion.Shared.dll": {
+          "DataAccessLibrary.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1710,6 +1723,13 @@
       "sha512": "sha512-Sf4BoE6Q3jTgFkgBkx7qztYOFELBCo+wQgpYDwal/qJ1unBH73ywPztIJKXBXORRzAeNijsuxhk94h0TIMvfYg==",
       "path": "azure.identity/1.11.4",
       "hashPath": "azure.identity.1.11.4.nupkg.sha512"
+    },
+    "Dapper/2.1.66": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/q77jUgDOS+bzkmk3Vy9SiWMaetTw+NOoPAV0xPBsGVAyljd5S6P+4RUW7R3ZUGGr9lDRyPKgAMj2UAOwvqZYw==",
+      "path": "dapper/2.1.66",
+      "hashPath": "dapper.2.1.66.nupkg.sha512"
     },
     "Faker.Net/2.0.163": {
       "type": "package",
@@ -2773,7 +2793,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "BlazorSyncFusion.Shared/1.0.0": {
+    "DataAccessLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
