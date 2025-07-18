@@ -24,8 +24,9 @@ namespace DataAccessLibrary
 
         public Task InsertPerson(OrderModel order)
         {
-            string sql = @"insert into dbo.Orders (CustomerID, EmployeeID, ShipVillage, RyoCurrency)
-                           values (@CustomerID, @EmployeeID, @ShipVillage, @RyoCurrency)"; // insert a new record into the Orders table
+            string sql = @"INSERT INTO dbo.Orders (CustomerID, ShipVillage, RyoCurrency)
+                           VALUES (@CustomerID, @ShipVillage, @RyoCurrency)"; // insert a new record into the Orders table
+
             return _db.SaveData(sql, order); // save the new record to the Orders table
         }
     }

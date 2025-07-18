@@ -5,6 +5,6 @@ namespace DataAccessLibrary
     public interface IOrdersData
     {
         Task<List<OrderModel>> GetPeople();
-        Task InsertPerson(OrderModel person);
+        Task InsertPerson(OrderModel order);
     }
 }

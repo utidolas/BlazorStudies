@@ -2,14 +2,27 @@
 
 @using DataAccessLibrary
 @using DataAccessLibrary.Models
+@using BlazorSyncFusion.Client.Models
 
 @inject IOrdersData _db
 
-<h3>Pagina de ordens</h3>
+<h1>Pagina de ordens</h1>
+
+<h4>Inserir nova ordem</h4>
+<EditForm Model="@newOrder" OnValidSubmit="@InsertOrder">
+	<DataAnnotationsValidator />
+	<ValidationSummary />
+
+	<InputText id="customerID" @bind-Value="newOrder.CustomerID" />
+	<InputText id="shipVillage" @bind-Value="newOrder.ShipVillage" />
+	<InputNumber id="ryoCurrency" @bind-Value="newOrder.RyoCurrency" />
+
+	<button type="submit" class="btn btn-primary">Inserir</button>
+</EditForm>
 
 <h4>Ordens atuais</h4>
 
-@if(people is null)
+@if(orders is null)
 {
 	<p><em>Carregando...</em></p>
 }
@@ -18,22 +31,18 @@ else
 	<table class="table table-striped">
 		<thead>
 			<tr>
-				<th>ID da ordem</th>
 				<th>Nome</th>
-				<th>ID do cliente</th>
 				<th>Local de envio</th>
 				<th>Custo</th>
 			</tr>
 		</thead>
 		<tbody>
-			@foreach(var person in people)
+			@foreach(var order in orders)
 			{
 				<tr>
-					<td>@person.OrderID</td>
-					<td>@person.CustomerID</td>
-					<td>@person.EmployeeID</td>
-					<td>@person.ShipVillage</td>
-					<td>@person.RyoCurrency</td>
+					<td>@order.CustomerID</td>
+					<td>@order.ShipVillage</td>
+					<td>@order.RyoCurrency</td>
 				</tr>
 			}
 		</tbody>
@@ -41,10 +50,28 @@ else
 }
 
 @code {
-	private List<OrderModel> people;
+	private List<OrderModel> orders;
+	private DisplayOrderModel newOrder = new DisplayOrderModel();
 
 	protected override async Task OnInitializedAsync()
 	{
-		people = await _db.GetPeople();
+		orders = await _db.GetPeople();
+	}
+
+	private async Task InsertOrder()
+	{
+		// manual mapping to convert DisplayOrderModel to OrderModel
+		OrderModel mappedOrder = new OrderModel
+			{
+				CustomerID = newOrder.CustomerID,
+				ShipVillage = newOrder.ShipVillage,
+				RyoCurrency = newOrder.RyoCurrency 
+			};
+
+		await _db.InsertPerson(mappedOrder);
+
+		orders.Add(mappedOrder);
+
+		newOrder = new DisplayOrderModel(); // reset the form
 	}
 }
