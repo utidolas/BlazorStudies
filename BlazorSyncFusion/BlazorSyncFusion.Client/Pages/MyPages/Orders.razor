@@ -3,7 +3,7 @@
 @using DataAccessLibrary
 @using DataAccessLibrary.Models
 
-@inject IPeopleData _db
+@inject IOrdersData _db
 
 <h3>Pagina de ordens</h3>
 
@@ -41,7 +41,7 @@ else
 }
 
 @code {
-	private List<PersonModel> people;
+	private List<OrderModel> people;
 
 	protected override async Task OnInitializedAsync()
 	{

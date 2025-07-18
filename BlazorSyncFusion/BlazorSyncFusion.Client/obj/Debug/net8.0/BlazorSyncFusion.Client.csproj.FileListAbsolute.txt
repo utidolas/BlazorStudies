@@ -1471,8 +1471,8 @@ G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\B
 G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion.Client\obj\Debug\net8.0\compressed\t9kkqj26cx-15bha6zbjy.gz
 G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion.Client\obj\Debug\net8.0\compressed\7mp5734tjo-m9hbxwov85.gz
 G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion.Client\obj\Debug\net8.0\compressed\dibi1pp8z2-quwz1fxlaw.gz
-G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion.Client\obj\Debug\net8.0\compressed\9sfqfjcuhi-f2hwg9ttue.gz
-G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion.Client\obj\Debug\net8.0\compressed\0qdy2f44hl-te6h0o6uxk.gz
-G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion.Client\obj\Debug\net8.0\compressed\5qrgw5eugm-rgxk2rhtsl.gz
-G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion.Client\obj\Debug\net8.0\compressed\vsrvv5myzn-ooldk5f89x.gz
-G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion.Client\obj\Debug\net8.0\compressed\smlpuqryqg-7zjwax5jzc.gz
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion.Client\obj\Debug\net8.0\compressed\5qrgw5eugm-29utdfm9rb.gz
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion.Client\obj\Debug\net8.0\compressed\vsrvv5myzn-o4yr3m7lef.gz
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion.Client\obj\Debug\net8.0\compressed\9sfqfjcuhi-tg4jc7058s.gz
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion.Client\obj\Debug\net8.0\compressed\0qdy2f44hl-r1t6bskhv5.gz
+G:\Meus Documentos\Documentos\Professional\PROGRAMMING\Blazor\BlazorSyncFusion\BlazorSyncFusion\BlazorSyncFusion.Client\obj\Debug\net8.0\compressed\smlpuqryqg-ubn0lj7dcf.gz

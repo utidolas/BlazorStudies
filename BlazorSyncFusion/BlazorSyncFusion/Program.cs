@@ -12,7 +12,7 @@ builder.Services.AddRazorComponents()
 
 // Register the data access layer services; create instances of ISqlDataAccess and IPeopleData
 builder.Services.AddTransient<ISqlDataAccess, SqlDataAccess>();
-builder.Services.AddTransient<IPeopleData, PeopleData>();
+builder.Services.AddTransient<IOrdersData, OrdersData>();
 builder.Services.AddRazorPages(); // Configure Razor Pages services
 
 

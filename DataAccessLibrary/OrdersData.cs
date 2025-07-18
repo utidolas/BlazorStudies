@@ -7,26 +7,26 @@ using System.Threading.Tasks;
 
 namespace DataAccessLibrary
 {
-    public class PeopleData : IPeopleData
+    public class OrdersData : IOrdersData
     {
         private readonly ISqlDataAccess _db;
 
-        public PeopleData(ISqlDataAccess db)
+        public OrdersData(ISqlDataAccess db)
         {
             _db = db;
         }
 
-        public Task<List<PersonModel>> GetPeople()
+        public Task<List<OrderModel>> GetPeople()
         {
             string sql = "SELECT * from dbo.Orders"; // select all records from the Orders table
-            return _db.LoadData<PersonModel, dynamic>(sql, new { }); // get all records from the Orders table
+            return _db.LoadData<OrderModel, dynamic>(sql, new { }); // get all records from the Orders table
         }
 
-        public Task InsertPerson(PersonModel person)
+        public Task InsertPerson(OrderModel order)
         {
             string sql = @"insert into dbo.Orders (CustomerID, EmployeeID, ShipVillage, RyoCurrency)
                            values (@CustomerID, @EmployeeID, @ShipVillage, @RyoCurrency)"; // insert a new record into the Orders table
-            return _db.SaveData(sql, person); // save the new record to the Orders table
+            return _db.SaveData(sql, order); // save the new record to the Orders table
         }
     }
 }
