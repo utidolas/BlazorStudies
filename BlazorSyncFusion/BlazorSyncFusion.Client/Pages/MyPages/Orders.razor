@@ -13,7 +13,7 @@
 	<DataAnnotationsValidator />
 	<ValidationSummary />
 
-	<InputText id="customerID" @bind-Value="newOrder.CustomerID" />
+	<InputText id="customerName" @bind-Value="newOrder.CustomerName" />
 	<InputText id="shipVillage" @bind-Value="newOrder.ShipVillage" />
 	<InputNumber id="ryoCurrency" @bind-Value="newOrder.RyoCurrency" />
 
@@ -40,7 +40,7 @@ else
 			@foreach(var order in orders)
 			{
 				<tr>
-					<td>@order.CustomerID</td>
+					<td>@order.CustomerName</td>
 					<td>@order.ShipVillage</td>
 					<td>@order.RyoCurrency</td>
 				</tr>
@@ -63,7 +63,7 @@ else
 		// manual mapping to convert DisplayOrderModel to OrderModel
 		OrderModel mappedOrder = new OrderModel
 			{
-				CustomerID = newOrder.CustomerID,
+				CustomerName = newOrder.CustomerName,
 				ShipVillage = newOrder.ShipVillage,
 				RyoCurrency = newOrder.RyoCurrency 
 			};

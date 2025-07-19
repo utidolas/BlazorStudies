@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BlazorSyncFusion.Client",
   "resources": {
-    "hash": "sha256-c02jBpMxmxgYtHkU7zsFElpSVigfQtbsx4o3SugK66U=",
+    "hash": "sha256-tDzYOtpeO036WjKDyyEPP/YV92zLc9+g3eyzufYPgts=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-1QpKPnxEuRCElzcp+e3MrovJeAJkuzqKmRQay/6Aa08="
     },
@@ -294,12 +294,12 @@
       "mscorlib.wasm": "sha256-UnQd0YPXNpwbXsKqO8RAqgUVuwZsSpprfAIPpdV/y1Q=",
       "netstandard.wasm": "sha256-/QbD8JDZyYwfyk89W3qJL3HTAINDCVziZIySHIZcDhw=",
       "System.Private.CoreLib.wasm": "sha256-oBqNgH7R24FqGbaL3XnfQDqn3rk28jERFosgAryKT6U=",
-      "DataAccessLibrary.wasm": "sha256-l7yaHOn94UvQw4YrGtuagUOsgAb4JW8UicxWQvj1vsw=",
-      "BlazorSyncFusion.Client.wasm": "sha256-QljMogGKwI9N+LrWWg0AtrPJ8f8301Dm8zVmSMNO5MM="
+      "DataAccessLibrary.wasm": "sha256-XM4R7L5LQdcxoj8+v9vFD5AreDnfVCN93oCaQeG+x4s=",
+      "BlazorSyncFusion.Client.wasm": "sha256-vXAr0OjquPBZOhyta4MmKn71wccQqpOiOHRA/XbUyRQ="
     },
     "pdb": {
-      "DataAccessLibrary.pdb": "sha256-sSM7EHnhfHFQ//k46dXBSJanLC9EpDOtf3ptZ8ayark=",
-      "BlazorSyncFusion.Client.pdb": "sha256-knm4/gHnuNtH3gZAYpBIKwkXNui0XP3W8zu+oql1IHQ="
+      "DataAccessLibrary.pdb": "sha256-hnrg2c0PvYZ6h6sqi+KvfZ2rS9KeD3LZjNNZs3AJpJw=",
+      "BlazorSyncFusion.Client.pdb": "sha256-HP+U3M4asW8Mh4WFpbaJq63DVxLjhoQAitdrC3eTmXE="
     },
     "satelliteResources": {
       "de-DE": {

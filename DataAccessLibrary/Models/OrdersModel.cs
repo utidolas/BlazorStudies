@@ -8,7 +8,7 @@ namespace DataAccessLibrary.Models
 {
     public class OrderModel
     {
-        public string CustomerID { get; set; } 
+        public string CustomerName { get; set; } 
         public string ShipVillage { get; set; }
         public decimal RyoCurrency { get; set; }
 
